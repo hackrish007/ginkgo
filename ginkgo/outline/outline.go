@@ -88,7 +88,7 @@ func (o *outline) String() string {
 // StringIndent returns a CSV-formated outline, but every line is indented by
 // one 'width' of spaces for every level of nesting.
 func (o *outline) StringIndent(width int) string {
-	var b strings.Builder
+	var b bytes.Buffer
 	b.WriteString("Name,Text,Start,End,Spec,Focused,Pending\n")
 
 	currentIndent := 0
