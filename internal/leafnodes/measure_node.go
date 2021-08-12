@@ -3,8 +3,8 @@ package leafnodes
 import (
 	"reflect"
 
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/internal/failer"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 type MeasureNode struct {

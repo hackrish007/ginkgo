@@ -16,8 +16,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/config"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 type JUnitTestSuite struct {

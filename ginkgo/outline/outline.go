@@ -12,10 +12,10 @@ import (
 
 const (
 	// ginkgoImportPath is the well-known ginkgo import path
-	ginkgoImportPath = "github.com/onsi/ginkgo"
+	ginkgoImportPath = "github.com/hackrish007/ginkgo"
 
 	// tableImportPath is the well-known table extension import path
-	tableImportPath = "github.com/onsi/ginkgo/extensions/table"
+	tableImportPath = "github.com/hackrish007/ginkgo/extensions/table"
 )
 
 // FromASTFile returns an outline for a Ginkgo test source file

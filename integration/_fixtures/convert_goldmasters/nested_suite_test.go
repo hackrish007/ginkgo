@@ -3,8 +3,8 @@ package nested_test
 import (
 	"testing"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/gomega"
 )
 
 func TestNested(t *testing.T) {

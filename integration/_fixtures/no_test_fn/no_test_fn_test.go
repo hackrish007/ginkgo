@@ -1,9 +1,9 @@
 package no_test_fn_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/integration/_fixtures/no_test_fn"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/ginkgo/integration/_fixtures/no_test_fn"
+	. "github.com/hackrish007/gomega"
 )
 
 var _ = Describe("NoTestFn", func() {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/onsi/ginkgo/ginkgo/convert"
-	colorable "github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable"
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/ginkgo/convert"
+	colorable "github.com/hackrish007/ginkgo/reporters/stenographer/support/go-colorable"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 func BuildConvertCommand() *Command {

@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/global"
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/internal/codelocation"
+	"github.com/hackrish007/ginkgo/internal/global"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 /*

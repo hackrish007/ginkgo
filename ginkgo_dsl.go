@@ -3,9 +3,9 @@ Ginkgo is a BDD-style testing framework for Golang
 
 The godoc documentation describes Ginkgo's API.  More comprehensive documentation (with examples!) is available at http://onsi.github.io/ginkgo/
 
-Ginkgo's preferred matcher library is [Gomega](http://github.com/onsi/gomega)
+Ginkgo's preferred matcher library is [Gomega](http://github.com/hackrish007/gomega)
 
-Ginkgo on Github: http://github.com/onsi/ginkgo
+Ginkgo on Github: http://github.com/hackrish007/ginkgo
 
 Ginkgo is MIT-Licensed
 */
@@ -21,16 +21,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/global"
-	"github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/internal/testingtproxy"
-	"github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/reporters/stenographer"
-	colorable "github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable"
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/config"
+	"github.com/hackrish007/ginkgo/internal/codelocation"
+	"github.com/hackrish007/ginkgo/internal/global"
+	"github.com/hackrish007/ginkgo/internal/remote"
+	"github.com/hackrish007/ginkgo/internal/testingtproxy"
+	"github.com/hackrish007/ginkgo/internal/writer"
+	"github.com/hackrish007/ginkgo/reporters"
+	"github.com/hackrish007/ginkgo/reporters/stenographer"
+	colorable "github.com/hackrish007/ginkgo/reporters/stenographer/support/go-colorable"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 var deprecationTracker = types.NewDeprecationTracker()

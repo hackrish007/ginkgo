@@ -108,7 +108,7 @@ func (s nodotSection) containsDeclarationOrType(word string) bool {
 func generateNodotSections() ([]nodotSection, error) {
 	sections := []nodotSection{}
 
-	declarations, err := getExportedDeclerationsForPackage("github.com/onsi/ginkgo", "ginkgo_dsl.go", "GINKGO_VERSION", "GINKGO_PANIC")
+	declarations, err := getExportedDeclerationsForPackage("github.com/hackrish007/ginkgo", "ginkgo_dsl.go", "GINKGO_VERSION", "GINKGO_PANIC")
 	if err != nil {
 		return nil, err
 	}
@@ -119,7 +119,7 @@ func generateNodotSections() ([]nodotSection, error) {
 		types:        []string{"Done", "Benchmarker"},
 	})
 
-	declarations, err = getExportedDeclerationsForPackage("github.com/onsi/gomega", "gomega_dsl.go", "GOMEGA_VERSION")
+	declarations, err = getExportedDeclerationsForPackage("github.com/hackrish007/gomega", "gomega_dsl.go", "GOMEGA_VERSION")
 	if err != nil {
 		return nil, err
 	}
@@ -129,7 +129,7 @@ func generateNodotSections() ([]nodotSection, error) {
 		declarations: declarations,
 	})
 
-	declarations, err = getExportedDeclerationsForPackage("github.com/onsi/gomega", "matchers.go")
+	declarations, err = getExportedDeclerationsForPackage("github.com/hackrish007/gomega", "matchers.go")
 	if err != nil {
 		return nil, err
 	}

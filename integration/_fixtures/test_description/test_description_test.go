@@ -3,8 +3,8 @@ package test_description_test
 import (
 	"fmt"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/gomega"
 )
 
 var _ = Describe("TestDescription", func() {

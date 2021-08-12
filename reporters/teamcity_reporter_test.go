@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	"github.com/hackrish007/ginkgo/config"
+	"github.com/hackrish007/ginkgo/internal/codelocation"
+	"github.com/hackrish007/ginkgo/reporters"
+	"github.com/hackrish007/ginkgo/types"
+	. "github.com/hackrish007/gomega"
 )
 
 var _ = Describe("TeamCity Reporter", func() {

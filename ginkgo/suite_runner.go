@@ -5,11 +5,11 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/interrupthandler"
-	"github.com/onsi/ginkgo/ginkgo/testrunner"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
-	colorable "github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable"
+	"github.com/hackrish007/ginkgo/config"
+	"github.com/hackrish007/ginkgo/ginkgo/interrupthandler"
+	"github.com/hackrish007/ginkgo/ginkgo/testrunner"
+	"github.com/hackrish007/ginkgo/ginkgo/testsuite"
+	colorable "github.com/hackrish007/ginkgo/reporters/stenographer/support/go-colorable"
 )
 
 type compilationInput struct {

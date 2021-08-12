@@ -1,8 +1,8 @@
 package testsuite_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/gomega"
 
 	"testing"
 )

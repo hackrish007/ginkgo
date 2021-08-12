@@ -13,12 +13,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
-	"github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/reporters/stenographer"
-	colorable "github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable"
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/config"
+	"github.com/hackrish007/ginkgo/ginkgo/testsuite"
+	"github.com/hackrish007/ginkgo/internal/remote"
+	"github.com/hackrish007/ginkgo/reporters/stenographer"
+	colorable "github.com/hackrish007/ginkgo/reporters/stenographer/support/go-colorable"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 type TestRunner struct {

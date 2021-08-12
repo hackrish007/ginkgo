@@ -7,10 +7,10 @@ import (
 
 	"fmt"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gbytes"
-	"github.com/onsi/gomega/gexec"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/gomega"
+	"github.com/hackrish007/gomega/gbytes"
+	"github.com/hackrish007/gomega/gexec"
 )
 
 var _ = Describe("Coverage Specs", func() {
@@ -39,17 +39,17 @@ var _ = Describe("Coverage Specs", func() {
 			Ω(parallelCoverProfileOutput).Should(Equal(serialCoverProfileOutput))
 
 			By("handling external packages", func() {
-				session = startGinkgo("./_fixtures/coverage_fixture", "-coverpkg=github.com/onsi/ginkgo/integration/_fixtures/coverage_fixture,github.com/onsi/ginkgo/integration/_fixtures/coverage_fixture/external_coverage_fixture")
+				session = startGinkgo("./_fixtures/coverage_fixture", "-coverpkg=github.com/hackrish007/ginkgo/integration/_fixtures/coverage_fixture,github.com/hackrish007/ginkgo/integration/_fixtures/coverage_fixture/external_coverage_fixture")
 				Eventually(session).Should(gexec.Exit(0))
 
-				Ω(session.Out).Should(gbytes.Say("coverage: 71.4% of statements in github.com/onsi/ginkgo/integration/_fixtures/coverage_fixture, github.com/onsi/ginkgo/integration/_fixtures/coverage_fixture/external_coverage_fixture"))
+				Ω(session.Out).Should(gbytes.Say("coverage: 71.4% of statements in github.com/hackrish007/ginkgo/integration/_fixtures/coverage_fixture, github.com/hackrish007/ginkgo/integration/_fixtures/coverage_fixture/external_coverage_fixture"))
 
 				serialCoverProfileOutput, err = exec.Command("go", "tool", "cover", fmt.Sprintf("-func=%s", coverFile)).CombinedOutput()
 				Ω(err).ShouldNot(HaveOccurred())
 
 				removeSuccessfully("./_fixtures/coverage_fixture/coverage_fixture.coverprofile")
 
-				Eventually(startGinkgo("./_fixtures/coverage_fixture", "-coverpkg=github.com/onsi/ginkgo/integration/_fixtures/coverage_fixture,github.com/onsi/ginkgo/integration/_fixtures/coverage_fixture/external_coverage_fixture", "-nodes=4")).Should(gexec.Exit(0))
+				Eventually(startGinkgo("./_fixtures/coverage_fixture", "-coverpkg=github.com/hackrish007/ginkgo/integration/_fixtures/coverage_fixture,github.com/hackrish007/ginkgo/integration/_fixtures/coverage_fixture/external_coverage_fixture", "-nodes=4")).Should(gexec.Exit(0))
 
 				parallelCoverProfileOutput, err = exec.Command("go", "tool", "cover", fmt.Sprintf("-func=%s", coverFile)).CombinedOutput()
 				Ω(err).ShouldNot(HaveOccurred())

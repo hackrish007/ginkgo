@@ -3,9 +3,9 @@ package integration_test
 import (
 	"strings"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gexec"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/gomega"
+	"github.com/hackrish007/gomega/gexec"
 )
 
 var _ = Describe("SuiteSetup", func() {

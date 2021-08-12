@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/hackrish007/ginkgo/ginkgo/testsuite"
 )
 
 type Suite struct {

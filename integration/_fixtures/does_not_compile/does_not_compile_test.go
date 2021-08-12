@@ -1,9 +1,9 @@
 package does_not_compile_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/integration/_fixtures/does_not_compile"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/ginkgo/integration/_fixtures/does_not_compile"
+	. "github.com/hackrish007/gomega"
 )
 
 var _ = Describe("DoesNotCompile", func() {

@@ -1,10 +1,10 @@
 package types_test
 
 import (
-	. "github.com/onsi/ginkgo/types"
+	. "github.com/hackrish007/ginkgo/types"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/gomega"
 )
 
 var specStates = []SpecState{

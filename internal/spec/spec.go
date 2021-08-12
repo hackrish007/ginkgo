@@ -7,9 +7,9 @@ import (
 
 	"sync"
 
-	"github.com/onsi/ginkgo/internal/containernode"
-	"github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/internal/containernode"
+	"github.com/hackrish007/ginkgo/internal/leafnodes"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 type Spec struct {

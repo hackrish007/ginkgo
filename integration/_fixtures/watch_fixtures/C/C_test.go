@@ -3,8 +3,8 @@ package C_test
 import (
 	. "$ROOT_PATH$/C"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/gomega"
 )
 
 var _ = Describe("C", func() {

@@ -1,8 +1,8 @@
 package example_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/extensions/table"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/ginkgo/extensions/table"
 )
 
 var _ = Describe("NormalFixture", func() {

@@ -1,8 +1,8 @@
 package example_test
 
 import (
-	fooginkgo "github.com/onsi/ginkgo"
-	footable "github.com/onsi/ginkgo/extensions/table"
+	fooginkgo "github.com/hackrish007/ginkgo"
+	footable "github.com/hackrish007/ginkgo/extensions/table"
 )
 
 var _ = fooginkgo.Describe("NodotFixture", func() {

@@ -1,8 +1,8 @@
 package suite_command_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/gomega"
 )
 
 var _ = Describe("Testing suite command", func() {

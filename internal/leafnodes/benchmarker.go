@@ -6,7 +6,7 @@ import (
 
 	"sync"
 
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 type benchmarker struct {

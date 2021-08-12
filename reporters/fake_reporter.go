@@ -1,8 +1,8 @@
 package reporters
 
 import (
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/config"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 //FakeReporter is useful for testing purposes

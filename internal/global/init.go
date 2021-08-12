@@ -3,8 +3,8 @@ package global
 import (
 	"time"
 
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/internal/suite"
+	"github.com/hackrish007/ginkgo/internal/failer"
+	"github.com/hackrish007/ginkgo/internal/suite"
 )
 
 const DefaultTimeout = time.Duration(1 * time.Second)

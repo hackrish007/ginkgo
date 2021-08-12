@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/hackrish007/ginkgo/internal/codelocation"
+	"github.com/hackrish007/ginkgo/internal/failer"
+	"github.com/hackrish007/ginkgo/types"
 )
 
 type runner struct {

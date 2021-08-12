@@ -1,11 +1,11 @@
 package first_package_test
 
 import (
-	. "github.com/onsi/ginkgo/integration/_fixtures/combined_coverage_fixture/first_package"
-	. "github.com/onsi/ginkgo/integration/_fixtures/combined_coverage_fixture/first_package/external_coverage_fixture"
+	. "github.com/hackrish007/ginkgo/integration/_fixtures/combined_coverage_fixture/first_package"
+	. "github.com/hackrish007/ginkgo/integration/_fixtures/combined_coverage_fixture/first_package/external_coverage_fixture"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/hackrish007/ginkgo"
+	. "github.com/hackrish007/gomega"
 )
 
 var _ = Describe("CoverageFixture", func() {

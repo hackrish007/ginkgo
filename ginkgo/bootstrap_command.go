@@ -13,7 +13,7 @@ import (
 	"go/build"
 
 	sprig "github.com/go-task/slim-sprig"
-	"github.com/onsi/ginkgo/ginkgo/nodot"
+	"github.com/hackrish007/ginkgo/ginkgo/nodot"
 )
 
 func BuildBootstrapCommand() *Command {
@@ -140,13 +140,13 @@ func generateBootstrap(agouti, noDot, internal bool, customBootstrapFile string)
 	data := bootstrapData{
 		Package:       determinePackageName(packageName, internal),
 		FormattedName: formattedName,
-		GinkgoImport:  `. "github.com/onsi/ginkgo"`,
-		GomegaImport:  `. "github.com/onsi/gomega"`,
+		GinkgoImport:  `. "github.com/hackrish007/ginkgo"`,
+		GomegaImport:  `. "github.com/hackrish007/gomega"`,
 	}
 
 	if noDot {
-		data.GinkgoImport = `"github.com/onsi/ginkgo"`
-		data.GomegaImport = `"github.com/onsi/gomega"`
+		data.GinkgoImport = `"github.com/hackrish007/ginkgo"`
+		data.GomegaImport = `"github.com/hackrish007/gomega"`
 	}
 
 	targetFile := fmt.Sprintf("%s_suite_test.go", bootstrapFilePrefix)
